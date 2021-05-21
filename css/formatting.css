@@ -1,0 +1,53 @@
+header {
+    font-family: "Monaco", "Lucida Console", monospace;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    font-family: "Monaco", "Lucida Console", monospace;
+    background-color: rgb(0, 0, 0);
+    color: #fb3f00;
+    position: fixed;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    border: none; /* Remove borders */
+    height: 24px;
+    width: 24px;
+    cursor: pointer; /* Mouse pointer on hover */
+}
+
+.sm:hover {
+    opacity: 0.7;
+}
+
+a.main-nav:link
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.main-nav:visited
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.main-nav:hover
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.main-nav:active
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
