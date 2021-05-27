@@ -35,7 +35,39 @@
         </nav>
     </header>
 
+    <p>
+        Leave your name and contact info below and I will be in touch!
+    </p>
 
+    <form action="other/email-form.php" method="POST">
+
+        <label for="fname">First Name</label>
+        <br>
+        <input type="text" id="fname" name="firstname" placeholder="First">
+
+        <br>
+    
+        <label for="lname">Last Name</label>
+        <br>
+        <input type="text" id="lname" name="lastname" placeholder="Last">
+
+        <br>
+
+        <label for="email">Email</label>
+        <br>
+        <input type="text" id="email" name="email" placeholder="email">
+
+        <br>
+    
+        <label for="message">Message</label>
+        <br>
+        <textarea id="message" name="message" placeholder="Enter your message here..." style="height:200px"></textarea>
+    
+        <br>
+
+        <input type="submit" value="Send">
+    
+    </form>
 
 
 </body>
