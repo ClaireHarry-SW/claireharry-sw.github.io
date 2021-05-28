@@ -27,11 +27,16 @@ header {
 footer {
     background-color: rgb(0, 0, 0);
     color: #fb3f00;
-    position: fixed;
+    position: relative;
     bottom: 0px;
     height: 100px;
     width: 100%;
     text-align: center;
+}
+
+.highlight {
+    height: 200px;
+
 }
 
 .first-highlight {
