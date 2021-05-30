@@ -39,6 +39,10 @@ footer {
     box-sizing: inherit;
 }
 
+.footer-inside-box {
+    padding: 10px 10px;
+}
+
 .column {
     float: left;
     margin-bottom: 16px;
@@ -65,7 +69,14 @@ footer {
 
 .highlight {
     height: 200px;
+    padding: 0px 4px 0 4px;
+    margin: 8px 0px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, .2);
 
+}
+
+.highlight:hover {
+    opacity: .6;
 }
 
 .first-highlight {
