@@ -16,7 +16,6 @@ body {
 
 header, footer {
     background-color: rgb(0, 0, 0);
-    color: #fb3f00;
     margin: 0px;
     height: auto;
     width: 100%;
@@ -36,6 +35,10 @@ footer {
 main {
     margin: 0px;
     padding: 0px 20px;
+}
+
+.intro {
+
 }
 
 .accent-color {
@@ -114,23 +117,25 @@ main {
     opacity: 0.7;
 }
 
-a.main-nav:link
+
+.main-nav:link
 {
-   color: #fb3f00;
+    color: inherit;
    text-decoration: none;
 }
-a.main-nav:visited
+.main-nav:visited
 {
-   color: #fb3f00;
+    color: inherit;
    text-decoration: none;
 }
-a.main-nav:hover
+.main-nav:hover
 {
-   color: #fb3f00;
+    color: inherit;
+    opacity: .6;
    text-decoration: none;
 }
-a.main-nav:active
+.main-nav:active
 {
-   color: #fb3f00;
+   color: inherit;
    text-decoration: none;
 }
