@@ -108,10 +108,10 @@ main {
 }
 
 .btn {
-    border: none; /* Remove borders */
+    border: none;
     height: 24px;
     width: 24px;
-    cursor: pointer; /* Mouse pointer on hover */
+    cursor: pointer;
 }
 
 .sm:hover {
