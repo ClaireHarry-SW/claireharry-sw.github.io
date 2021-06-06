@@ -37,6 +37,11 @@ main {
     padding: 0px 20px;
 }
 
+input {
+    height: 35px;
+    width: 66.6%;
+}
+
 .intro {
     margin: 0px;
     padding: 0px;
@@ -69,13 +74,10 @@ main {
 .contact-form {
     display: inline-block;
     text-align:left;
-}
-
-.form-container {
-    text-align: left;
-    width: auto;
+    width: 75%;
 
 }
+
 
 .highlight {
     color: rgb(0, 0, 0);
