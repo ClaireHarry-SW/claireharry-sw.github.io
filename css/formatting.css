@@ -50,6 +50,11 @@ input {
     width: 66.6%;
 }
 
+.resume {
+	margin: 16px;
+	padding: 0;
+}
+
 .title {
 	text-align: center;
 }
