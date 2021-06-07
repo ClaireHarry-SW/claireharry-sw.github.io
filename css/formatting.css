@@ -48,8 +48,9 @@ input {
 }
 
 .about {
-    margin: 0px 100px 0px 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px 0px;
+	transition: .5s;
 }
 
 .intro {
@@ -123,15 +124,14 @@ input {
 }
 
 .sidebar {
-  margin: 0;
-  padding: 8px;
-  width: 100px;
-  background-color: #f1f1f1;
+  width: 0;
+  padding: 0px 0px 8px 8px;
+  background-color: #000000;
   position: fixed;
   right: 0;
   top: 150px;
   height: auto;
-  overflow: auto;
+  transition: 0.5s;
 }
 
 .sm:hover {

@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
     <link rel="manifest" href="images/favicon/site.webmanifest">
     <link rel="stylesheet" href="css/formatting.css">
+	<script src="js/main.js"></script>
     
     <title>Claire Davis - About</title>
 
@@ -44,7 +45,9 @@
 
     <main>
 	
-		<section class="about">
+		<section id="about" class="about">
+		
+			<button class="sideMenu" onClick="sideMenu()">&#9776; Menu</button>
 
 			<h2><a id="top">About Me</a></h2>
 
@@ -52,101 +55,94 @@
 
 				<p>
 					As an <b>ambitious and motivated aspiring programmer</b>, I thrive on tackling challenging 
-					problems, exploring innovative technologies, and developing my professional network.
+					problems, exploring innovative technologies, and developing my professional skills.
 				</p>
 
 				<img src="/images/Headshot_5_19_2021.jpg" alt="Claire" class="column">
 
 				<section>
 			
-				<h3><a id="present">
-                    Present...
-                </h3></a>
+					<h3><a id="present">
+						Present...
+					</h3></a>
 
-                Currently I am pursuing a <b>B.S. in Computer Science</b> and a minor in 
-                Graphic Communications at NC State University.
+					Currently I am pursuing a <b>B.S. in Computer Science</b> and a minor in 
+					Graphic Communications at NC State University.
 
-                <br>
-                <br>
+					<br>
+					<br>
 
-                I strive for excellence in all my academic pursuits, demonstrated with a 3.96 GPA,
-                active membership in numerous honor societies, (including the NC State Scholars Program, Tau Beta Pi,
-                and the Intel Scholars Program,) and a commitment to practical application of the skills and knowledge I learn
-				in class. 
-				<br>
-				<br>
-				To apply my academic knowledge in a professional environment, I joined the co-op program, alternating semesters of full-time work as a 
-				<b>data analyst and software engineer</b> at Highland Industries with semesters of academic work for two years. Developing solutions 
-				to the projects assigned to me required <b>strong time-manegment skills, a creative problem-solving and critical thinking mindset,
-				and the ability to write reusable, user-friendly, and robust programs</b>. Over the year of work experience I completed, 
-				I used the principals taught in my classes to solve real problems in the textiles manufacturing industry, saving hundreds
-				of hours of manual data manipulation and increasing speed and efficiency of analysis in departments all over the plant,
-				including the lab and R&D.
-				<br>
-				<br>
-				Additionally, I work in a research lab dedicated to improving the training of guide dogs through analyzing the environmental conditions
-				that produce the ideal dog.
-				<br>
-				<br>
-				Along with academic knowledge and professional skills, I am developing my <b>leadership ability</b> through training programs such as the CSC Ambassadors
-				and as an Entrepreneurship Village Mentor.
+					I strive for excellence in all my academic pursuits, demonstrated with a 3.96 GPA,
+					active membership in numerous honor societies, (including the NC State Scholars Program, Tau Beta Pi,
+					and the Intel Scholars Program,) and a commitment to practical application of the skills and knowledge I learn
+					in class. 
+					<br>
+					<br>
+					To apply my academic knowledge in a professional environment, I joined the co-op program, alternating semesters of full-time work as a 
+					<b>data analyst and software engineer</b> at Highland Industries with semesters of academic work for two years. Developing solutions 
+					to the projects assigned to me required <b>strong time-manegment skills, a creative problem-solving and critical thinking mindset,
+					and the ability to write reusable, user-friendly, and robust programs</b>. Over the year of work experience I completed, 
+					I used the principals taught in my classes to solve real problems in the textiles manufacturing industry, saving hundreds
+					of hours of manual data manipulation and increasing speed and efficiency of analysis in departments all over the plant,
+					including the lab and R&D.
+					<br>
+					<br>
+					Additionally, I work in a research lab dedicated to improving the training of guide dogs through analyzing the environmental conditions
+					that produce the ideal dog.
+					<br>
+					<br>
+					Along with academic knowledge and professional skills, I am developing my <b>leadership ability</b> through training programs such as the CSC Ambassadors
+					and as an Entrepreneurship Village Mentor.
 				
 				</section>
-
+				
 				<section>
-                <h3><a id="past"> 
-                    Past...
-                </h3></a>
-
-				Throughout my childhood, my parents encouraged my curiosity and creativity by 
-				exposing me to many different combinations of art, science, culture, technology, nature, and 
-				more, demonstrating how each discipline works to enhance the others. These experiences shaped
-				my worldview into one that appreciates the beauty in logic and seeks out the structure and 
-				foundation of art and creativity.
-
-                <br>
-                <br>
-
-                So why does a programmer care about beauty and art? Because efficient programming and software developement 
-				requires creativity, inspiration, and a knack for thinking outside the box, all of which are traits 
-				that are most effectivly aquired through learning appreciation for beauty. Combining technical skills
-				and creative thinking produces programs that are elegent, efficent, and effective. 
-
-				</section>
-
-				<section class="text">
 			
-				<h3><a id="future">
-                    Future...
-                </h3></a>
+					<h3><a id="future">
+						Future...
+					</h3></a>
 
-                My professional goals upon graduation include 
+					My professional goals upon graduation include 
 				
 				</section>
+				
+				<section>
+				
+					<h3><a id="past"> 
+						Past...
+					</h3></a>
 
-            
+					Throughout my childhood, my parents encouraged my curiosity and creativity by 
+					exposing me to many different combinations of art, science, culture, technology, nature, and 
+					more, demonstrating how each discipline works to enhance the others. These experiences shaped
+					my worldview into one that appreciates the beauty in logic and seeks out the structure and 
+					foundation of art and creativity.
 
+					<br>
+					<br>
+
+					So why does a programmer care about beauty and art? Because efficient programming and software developement 
+					requires creativity, inspiration, and a knack for thinking outside the box, all of which are traits 
+					that are most effectivly aquired through learning appreciation for beauty. Combining technical skills
+					and creative thinking produces programs that are elegent, efficent, and effective. 
+
+				</section>
+
+				
 			</section>
 		
 		</section>
 		
-		<div class="sidebar">
+		<div id="sidebar" class="sidebar accent-color">
 		
-			<nav>
-				
-				<p>
-				
-					<a href="#present" class="main-nav"> Present </a>
-					<br>
-					<a href="#future" class="main-nav"> Future </a>
-					<br>
-					<a href="#past" class="main-nav"> Past </a>
-				
-				</p>
-				
-				<p><a href="#top" class="main-nav">Top</a></p>
-		
-			</nav>
+			<a href="#present" class="main-nav"> Present </a>
+			<br>
+			<a href="#future" class="main-nav"> Future </a>
+			<br>
+			<a href="#past" class="main-nav"> Past </a>
+			<br>
+			<br>
+			<a href="#top" class="main-nav">Top</a>
 			
 		</div>
 
