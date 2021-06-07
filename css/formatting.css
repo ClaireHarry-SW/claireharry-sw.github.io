@@ -10,8 +10,11 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
-	text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+	font-size: 20px;
 }
 
 body {
@@ -45,6 +48,10 @@ main {
 input {
     height: 35px;
     width: 66.6%;
+}
+
+.title {
+	text-align: center;
 }
 
 .about {
