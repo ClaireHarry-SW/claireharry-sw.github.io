@@ -147,7 +147,7 @@ input {
 
 .sidebar {
   width: 0;
-  padding: 0px 0px 8px 8px;
+  padding: 8px 0px 8px 16px;
   background-color: rgb(0, 0, 0);
   position: fixed;
   right: 0;
@@ -157,7 +157,7 @@ input {
 }
 
 .sidebar:hover {
-	width: 100px !important;
+	width: 125px !important;
 }
 
 .sm:hover {
