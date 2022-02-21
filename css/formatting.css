@@ -7,6 +7,7 @@ html {
 h1 {
     font-size: 40px;
     text-align: center;
+    opacity: 1;
 }
 
 h2 {
@@ -22,6 +23,10 @@ body {
     padding: 0px 0px;    
 	min-height: 100vh;
 	position: relative;
+}
+
+p {
+    opacity: 1;
 }
 
 header, footer {
@@ -43,8 +48,10 @@ footer {
 }
 
 main {
-    margin: 0px 0px 16px 0px;
-    padding: 0px 20px;
+    margin: 0px;
+    padding: 5%;
+    background-image: url("/images/light_binary.png");
+    background-attachment: fixed;
 }
 
 input {
@@ -63,13 +70,17 @@ input {
 
 .about {
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px;
+    padding: 24px;
 	transition: .5s;
+    background-color: white;
 }
 
 .intro {
-    padding: 024px;
+    padding: 24px;
+    background-color: white;
+    margin-bottom: 24px;
 }
+
 
 .accent-color {
     color: #fb3f00;
@@ -100,14 +111,20 @@ input {
 
 }
 
+.highlights {
+    column-width: 410px;
+    padding: 0;
+}
+
 
 .highlight {
     color: rgb(0, 0, 0);
     height: auto;
-    padding: 1px 4px 4px 4px;
-    margin: 16px 0px;
+    padding: 10px;
+    margin: 0px 0px 24px;
     box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, .2);
-
+    background-color: white;
+    break-inside: avoid;
 }
 
 .highlight:hover {
