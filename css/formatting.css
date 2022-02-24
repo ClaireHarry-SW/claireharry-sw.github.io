@@ -26,6 +26,7 @@ body {
     margin: 0px 0px;
     padding: 0px 0px;
 	position: relative;
+    min-height: 1vh;
 }
 
 p {
@@ -65,6 +66,11 @@ input {
 iframe {
     width: 100%;
     min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #cards {
@@ -109,13 +115,76 @@ iframe {
 }
 
 #resume {
-	margin: 16px;
 	padding: 0;
     display: flex;
     width: 100%;
-    flex-direction: column;
-    overflow: hidden;
     height: 100vh;
+}
+
+#academic:hover {
+    transform: scale(1.25);
+}
+#academic:hover #academic-hide {
+    display: block;
+}
+#academic-hide {
+    display: none;
+
+}
+
+#research:hover {
+    transform: scale(1.25);
+}
+#research:hover #research-hide {
+    display: block;
+}
+#research-hide {
+    display: none;
+    
+}
+
+#professional:hover {
+    transform: scale(1.25);
+}
+#professional:hover #professional-hide {
+    display: block;
+}
+#professional-hide {
+    display: none;
+    
+}
+
+#personal:hover {
+    transform: scale(1.25);
+}
+#personal:hover #personal-hide {
+    display: block;
+}
+#personal-hide {
+    display: none;
+    
+}
+
+#other-projects:hover {
+    transform: scale(1.25);
+}
+#other-projects:hover #other-projects-hide {
+    display: block;
+}
+#other-projects-hide {
+    display: none;
+    
+}
+
+#soft-skills:hover {
+    transform: scale(1.25);
+}
+#soft-skills:hover #soft-skills-hide {
+    display: block;
+}
+#soft-skills-hide {
+    display: none;
+    
 }
 
 .portfolio-card {
@@ -125,6 +194,8 @@ iframe {
     text-align: center;
     margin-top: 60px;
     background-color: white;
+    transition: .5s;
+    text-decoration: none;
 }
 
 .card-img {
@@ -259,26 +330,22 @@ iframe {
     opacity: 0.7;
 }
 
-.main-nav:link {
-    color: inherit;
-    text-decoration: none;
-}
-.main-nav:visited {
-    color: inherit;
-    text-decoration: none;
-}
+
+
 .main-nav:hover {
     color: inherit;
     opacity: .6;
-    text-decoration: none;
-}
-.main-nav:active {
-    color: inherit;
     text-decoration: none;
 }
 
 .warning {
     color: red;
     font-size: 15px;
+}
+
+.white-bg {
+    margin: 0;
+    padding: 24px;
+    background-color: white;
 }
 
