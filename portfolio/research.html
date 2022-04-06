@@ -47,20 +47,62 @@
 
 
 
-    <main>
+    <main id="research_main">
         
-        <section class="white-bg">
-            <h1>Research</h1>
-            <h3 class="warning">UNDER CONSTRUCTION</h3>
-            <h2>Projects</h2>
-            <ul>
-                <li>Database Management</li>
-                <li>SQL Queries</li>
-                <li>Clustering</li>
-                <li>Comparison Analysis</li>
-            </ul>
-            
+        <section class="Research_Title research_block">
+            <h2>Undergraduate Research with CIIGAR Lab</h2>
+            <h4>Supervising Professor: Dr. David Roberts</h4>
         </section>
+        
+        <div class='Research_Image research_block'>
+            <img src="../images/1H319_kmeans_plot.png">
+        </div>
+        
+        
+        <section class="Research_Description research_block">
+            <h2>Description</h2>
+            <p>
+                Training guide dogs requires an average of $50,000 invested per dog. With the failure rate around 60%, a method of maximizing the success of an individual dog and minimizing the time spent training unsuitable dogs would save thousands of dollars and increase the availability of successful guide dogs.
+                The CIIGAR lab under the guidance of Dr. David Roberts and Dr. Alper Bozkurt has been compiling environmental data on hundreds of puppies through means of an electronically-fitted collar worn by the dogs when they are living with their volunteer raisers with goals of determining the ideal environment for raising guide dogs and connecting an individual dog’s responses to its likelihood of success in the program.
+                My project is specifically aimed at developing location-aware analytics and a system of presentation that allows for user interaction.
+            </p>
+        </section>
+
+        
+        
+        <section class="Research_Results research_block">
+            <h2>Results</h2>
+            <p>
+                For the first project, I created a python and SQL script that cleaned the data in each table, interpolated missing values, and set the time stamps to a consistent time step over all the tables. After the tables were cleaned and standardized, I wrote another script to join them on tattoos and time stamps to create a large table to aid in lookups and comparing data from multiple sources to each other. Unfortunately, we ran into difficulties with resource consumption and were unable to drill down to the detail we were planning on. Dr. Roberts has plans to remedy these issues in the future. 
+                <br>
+                For the second project, I was successful in clustering, graphing, and displaying the GPS data points. 
+                <br>
+                The last component of my project is a summary of the results of the clustering and a tool to retrieve information from Google’s Maps API about specific coordinates. Each time the clustering algorithm is run on a tattoo, it generates a text file with the summary of the clusters, as well as provides the option for retrieving more information from Google using their Maps API. Future projects will include automating the process of gathering useful information from Google and automatically generating a map with the coordinates plotted on it. 
+                <br>
+                These components together form the basis for a system where the GPS coordinates are grouped into clusters based on location and then connected with the other data points and information from Google to create a snapshot of the environment and the response of the dog, taking into account location and time. 
+
+            </p>
+        </section>
+
+        <section class="Research_Skills research_block">
+            <h2>Skills Learned</h2>
+            <p>
+                <ul>
+                    <li>Database Management</li>
+                    <li>SQL Queries</li>
+                    <li>Clustering (DB Scan and KMeans)</li>
+                    <li>Comparison Analysis</li>
+                    <li>Google's Maps API</li>
+                    <li>Data Analytics Algorithms</li>
+                </ul>
+            </p>
+
+        </section>
+
+        <div class='Research_Image research_block'>
+            <img src="../images/gps_plot.png">
+        </div>
+        
 
     </main>
 
