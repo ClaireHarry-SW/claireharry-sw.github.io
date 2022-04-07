@@ -479,3 +479,33 @@ a {
 #professional_projects p {
     text-align: left;
 }
+
+/* Styles for personal.html */
+#personal-projects {
+    overflow: hidden;
+    padding-bottom: 200px;
+    max-width: 1070px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.personal-project {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    border: solid 1px;
+    transform: rotateY(0deg) rotate(45deg);
+}
+.diamond {
+    width: 11.5%;
+    padding-bottom: 11.5%;
+    display: inline-block;
+}
+.diamond-big {
+    width: 25%;
+    padding-bottom: 25%;
+    display: inline-block;
+}
+.content {
+    transform: rotateY(0deg) rotate(-45deg);
+}
