@@ -77,13 +77,6 @@ a {
 
 /* Resused Styles */
 
-
-/* Styles for index.html */
-
-
-
-
-
 #resume {
 	padding: 0;
     display: flex;
@@ -127,41 +120,7 @@ a {
     width: 75%;
 }
 
-.highlights {
-    column-width: 410px;
-    padding: 0;
-}
 
-
-.highlight {
-    color: rgb(0, 0, 0);
-    height: auto;
-    padding: 10px;
-    margin: 0px 0px 24px;
-    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, .2);
-    background-color: white;
-    break-inside: avoid;
-}
-
-.highlight:hover {
-    opacity: .6;
-}
-
-.first-highlight {
-    text-align: left;
-}
-
-.second-highlight {
-    text-align: right;
-}
-
-.third-highlight {
-    text-align: left;
-}
-
-.fourth-highlight {
-    text-align: right;
-}
 
 .menuBtn {
 	background: rgb(0, 0, 0);
@@ -177,8 +136,6 @@ a {
     width: 24px;
     cursor: pointer;
 }
-
-
 
 .sm:hover {
     opacity: 0.7;
@@ -259,6 +216,43 @@ a {
     }
 }
 
+/* Styles for index.html */
+
+.highlights {
+    column-width: 410px;
+    padding: 0;
+}
+
+
+.highlight {
+    color: rgb(0, 0, 0);
+    height: auto;
+    padding: 10px;
+    margin: 0px 0px 24px;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, .2);
+    background-color: white;
+    break-inside: avoid;
+}
+
+.highlight:hover {
+    opacity: .6;
+}
+
+.first-highlight {
+    text-align: left;
+}
+
+.second-highlight {
+    text-align: right;
+}
+
+.third-highlight {
+    text-align: left;
+}
+
+.fourth-highlight {
+    text-align: right;
+}
 
 /* Styles for contact.html */
 #contact {
@@ -488,6 +482,7 @@ a {
     padding: 0 30px;
     margin: 0 auto;
 }
+
 .personal-project {
     position: relative;
     width: 200px;
@@ -508,4 +503,34 @@ a {
 }
 .content {
     transform: rotateY(0deg) rotate(-45deg);
+}
+
+/* Styles for other.html */
+
+#hobbies img {
+    display: inline;
+    text-align: center;
+    padding: 2%;
+    border: black;
+}
+@media only screen and (min-width: 0px) {
+    #hobbies img {
+      width: 75%;
+    }
+}
+
+@media only screen and (min-width: 981px) {
+    #hobbies img {
+        display: inline;
+        width: 45%;
+        text-align: center;
+    }
+}
+#bug img {
+    text-align: center;
+}
+
+.other-hobby {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
