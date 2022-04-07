@@ -1,3 +1,5 @@
+/* element selectors */
+
 html {
     font-size: 20px;
     font-family: "Verdana", sans-serif;
@@ -73,46 +75,14 @@ a {
     color: inherit;
 }
 
-#cards {
-    margin: 0;
-    padding: 24px;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-column-gap: 0;
-    grid-row-gap: 20px;
-}
-
-@media only screen and (min-width: 640px) {
-    #cards {
-      grid-template-columns: 47.5% 47.5%;
-      grid-column-gap: 5%;
-      grid-row-gap: 40px;
-    }
-    .portfolio-card {
-      padding: 20px;
-    }
-}
-
-@media only screen and (min-width: 981px) {
-    #cards {
-      grid-template-columns: 30% 30% 30%;
-      grid-row-gap: 50px;
-    }
-    .portfolio-card {
-      padding: 30px;
-    }
-}
+/* Resused Styles */
 
 
-#portfolio {
-    margin: 0;
-    padding: 24px;
-}
+/* Styles for index.html */
 
-#contact {
-    background-color: white;
-    padding: 24px;
-}
+
+
+
 
 #resume {
 	padding: 0;
@@ -121,129 +91,6 @@ a {
     height: 100vh;
 }
 
-#academic:hover {
-    transform: scale(1.25);
-}
-#academic:hover #academic-hide {
-    display: block;
-}
-#academic-hide {
-    display: none;
-
-}
-
-#research:hover {
-    transform: scale(1.25);
-}
-#research:hover #research-hide {
-    display: block;
-}
-#research-hide {
-    display: none;
-    
-}
-
-#professional:hover {
-    transform: scale(1.25);
-}
-#professional:hover #professional-hide {
-    display: block;
-}
-#professional-hide {
-    display: none;
-    
-}
-
-#personal:hover {
-    transform: scale(1.25);
-}
-#personal:hover #personal-hide {
-    display: block;
-}
-#personal-hide {
-    display: none;
-    
-}
-
-#other-projects:hover {
-    transform: scale(1.25);
-}
-#other-projects:hover #other-projects-hide {
-    display: block;
-}
-#other-projects-hide {
-    display: none;
-    
-}
-
-#soft-skills:hover {
-    transform: scale(1.25);
-}
-#soft-skills:hover #soft-skills-hide {
-    display: block;
-}
-#soft-skills-hide {
-    display: none;
-    
-}
-
-#project_timeline {
-    text-align: center;
-    position: relative;
-    width: 100%;
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 15px 0;
-}
-
-#project_timeline::after {
-    content: '';
-    position: absolute;
-    width: 2px;
-    background: #006E51;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -1px;
-  }
-
-.portfolio-card {
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    max-width: 350px;
-    text-align: center;
-    margin-top: 60px;
-    background-color: white;
-    transition: .5s;
-    text-decoration: none;
-}
-
-.card-img {
-    width: 120px;
-    height: 120px;
-    overflow: hidden;
-    border-radius: 100%;
-    margin: -60px auto 0;
-}
-.card-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.card-info {
-    padding-bottom: 20px;
-}
-
-.title {
-	text-align: center;
-}
-
-.about {
-    margin: 0px 0px 0px 0px;
-    padding: 24px;
-	transition: .5s;
-    background-color: white;
-}
 
 .intro {
     padding: 24px;
@@ -331,20 +178,7 @@ a {
     cursor: pointer;
 }
 
-.sidebar {
-  width: 0;
-  padding: 8px 0px 8px 16px;
-  background-color: rgb(0, 0, 0);
-  position: fixed;
-  right: 0;
-  top: 125px;
-  height: auto;
-  transition: 0.5s;
-}
 
-.sidebar:hover {
-	width: 125px !important;
-}
 
 .sm:hover {
     opacity: 0.7;
@@ -367,7 +201,192 @@ a {
     background-color: white;
 }
 
+.cards {
+    margin: 0;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 0;
+    grid-row-gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 60px;
+    background-color: white;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.card-img {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: -60px auto 0;
+}
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-info {
+    padding-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 640px) {
+    .cards {
+      grid-template-columns: 47.5% 47.5%;
+      grid-column-gap: 5%;
+      grid-row-gap: 40px;
+    }
+    .card {
+      padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 981px) {
+    .cards {
+      grid-template-columns: 30% 30% 30%;
+      grid-row-gap: 50px;
+    }
+    .card {
+      padding: 30px;
+    }
+}
+
+
+/* Styles for contact.html */
+#contact {
+    background-color: white;
+    padding: 24px;
+}
+
+/* Styles for about.html */
+.title {
+	text-align: center;
+}
+
+.sidebar {
+    width: 0;
+    padding: 8px 0px 8px 16px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    right: 0;
+    top: 125px;
+    height: auto;
+    transition: 0.5s;
+}
+  
+.sidebar:hover {
+    width: 125px !important;
+}
+
+.about {
+    margin: 0px 0px 0px 0px;
+    padding: 24px;
+	transition: .5s;
+    background-color: white;
+}
+
+/* Styles for portfolio.html */
+#portfolio {
+    margin: 0;
+    padding: 24px;
+}
+
+#academic:hover {
+    transform: scale(1.25);
+}
+#academic:hover #academic-hide {
+    display: block;
+}
+#academic-hide {
+    display: none;
+
+}
+
+#research:hover {
+    transform: scale(1.25);
+}
+#research:hover #research-hide {
+    display: block;
+}
+#research-hide {
+    display: none;
+    
+}
+
+#professional:hover {
+    transform: scale(1.25);
+}
+#professional:hover #professional-hide {
+    display: block;
+}
+#professional-hide {
+    display: none;
+    
+}
+
+#personal:hover {
+    transform: scale(1.25);
+}
+#personal:hover #personal-hide {
+    display: block;
+}
+#personal-hide {
+    display: none;
+    
+}
+
+#other-projects:hover {
+    transform: scale(1.25);
+}
+#other-projects:hover #other-projects-hide {
+    display: block;
+}
+#other-projects-hide {
+    display: none;
+    
+}
+
+#soft-skills:hover {
+    transform: scale(1.25);
+}
+#soft-skills:hover #soft-skills-hide {
+    display: block;
+}
+#soft-skills-hide {
+    display: none;
+    
+}
+
 /* styles for academic.html */
+
+#project_timeline {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+#project_timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: #006E51;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+
 .projects {
     position: relative;
     width: 100%;
@@ -454,4 +473,9 @@ a {
 .Research_Skills {
     grid-row: 1 / span 3;
     grid-column: 4 / span 1;
+}
+
+/* Styles for professional.html */
+#professional_projects p {
+    text-align: left;
 }
