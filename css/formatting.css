@@ -361,63 +361,40 @@ a {
 
 /* styles for academic.html */
 
-#project_timeline {
+.year {
     text-align: center;
-    position: relative;
-    width: 100%;
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 15px 0;
 }
 
-#project_timeline::after {
-    content: '';
-    position: absolute;
-    width: 2px;
-    background: #006E51;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -1px;
-}
-
-.projects {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    padding: 15px 0;
-}
-
-.column {
-    padding: 15px 30px;
-    position: relative;
-    background: inherit;
-    width: 50%;
-}
-
-.column.left {
-    left:0;
-}
-
-.column.right {
-    left: 50%;
+.line {
+	background: linear-gradient(#000, #000) no-repeat center/2px 100%;
 }
 
 .projects::after {
-    content: '';
-    position: relative;
-    width: 2px;
-    background: #006E51;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -1px;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.projects h5 {
     text-align: center;
 }
 
-.container.right::after {
-    left: -8px;
+.left, .right {
+    width: 40%;
+    padding: 0px 10px;
+    margin: 8px 16px 16px 0px;
+    border-radius: 25px;
+    background-color: lightgray;
 }
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 
 /* styles for research.html */
 
