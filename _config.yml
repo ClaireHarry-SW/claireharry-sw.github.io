@@ -1,0 +1,9 @@
+title: My Portfolio
+baseurl: "" # Leave empty for root
+url: "https://ClaireHarry-SW.github.io"
+theme: minima
+collections:
+  notes:
+    output: true
+  projects:
+    output: true
